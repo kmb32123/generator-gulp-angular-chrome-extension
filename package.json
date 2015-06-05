@@ -1,0 +1,30 @@
+{
+  "name": "generator-gulp-angular-chrome-extension",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "kmb32123/generator-gulp-angular-chrome-extension",
+  "author": {
+    "name": "Kevin Brey",
+    "email": "",
+    "url": "https://github.com/kmb32123"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
